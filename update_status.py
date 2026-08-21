@@ -157,6 +157,11 @@ def build_embed() -> dict:
         "color": 0x2B2D31,
         "fields": fields,
         "image": {"url": IMAGE_URL},
+        # Discord renders this at the very bottom of the embed as
+        # "Today at HH:MM" (or the equivalent in the viewer's own language),
+        # automatically converted to their local timezone — this doesn't
+        # need any manual formatting on our end.
+        "timestamp": datetime.now(timezone.utc).isoformat(),
     }
 
 
