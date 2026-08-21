@@ -73,7 +73,7 @@ MEMBER_COUNT = "1,781,913"
 # Uses raw.githubusercontent.com (GitHub's raw file CDN), which is more
 # reliable for hotlinking than the normal github.com blob URL.
 GITHUB_USER = "bence2005-ux"
-GITHUB_REPO = "daily-bot"
+GITHUB_REPO = "automatic-enigma"
 GITHUB_BRANCH = "main"
 IMAGE_FILENAME = "status_image.png"  # <-- change this if you name the file differently
 
