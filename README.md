@@ -6,7 +6,7 @@ to maintain — it runs on GitHub's free scheduled Actions runners.
 ## Setup
 
 ### 1. Create a repo
-Create a new (can be private) GitHub repo and add these two files, keeping
+Create a new (cannot be private) GitHub repo and add these two files, keeping
 the same folder structure:
 
 ```
