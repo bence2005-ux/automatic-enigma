@@ -2,9 +2,13 @@ name: Server Status Update
 
 on:
   schedule:
-    # Runs every 15 minutes so the "current time" display stays fresh.
+    # Runs once an hour, offset to :13 past the hour instead of the top of
+    # the hour. GitHub queues a huge fraction of all scheduled workflows at
+    # round minute marks (:00, :15, :30, :45), which causes delays and
+    # sometimes dropped runs during high load. An off-beat minute avoids
+    # most of that congestion and keeps the cadence reliable.
     # Cron format: minute hour day month weekday
-    - cron: '*/15 * * * *'
+    - cron: '13 * * * *'
   workflow_dispatch: {}   # lets you manually trigger a run from the Actions tab too
 
 jobs:
