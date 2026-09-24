@@ -9,7 +9,7 @@ For each region (NA / EU / ASIA):
   - The bullet lines use real Discord timestamps (<t:UNIX:R>), which Discord
     renders live client-side and auto-counts down with zero drift — these
     stay accurate even between runs.
-  - Manual updates to code : 1
+  - Manual updates to code : 2
 
 Run this on a short interval via GitHub Actions (see daily-update.yml).
 
