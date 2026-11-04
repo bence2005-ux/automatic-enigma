@@ -63,7 +63,7 @@ DAILY_RESET_HOUR = 4
 WEEKLY_RESET_WEEKDAY = 0  # Monday
 WEEKLY_RESET_HOUR = 4
 
-MEMBER_COUNT = "1,781,913"
+MEMBER_COUNT = "1,807,581"
 
 # ----------------------------------------------------------------------
 # EMBED IMAGE
